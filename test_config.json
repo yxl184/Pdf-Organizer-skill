@@ -1,0 +1,24 @@
+{
+  "openai_api_key": "sk-21EPepk7c5ua39ROO3Uwsqc8sObtr5N4o3gJlCe8GVWrv4D1",
+  "input_folder": "./test_skill",
+  "output_folder": "./results_skill",
+  "model": "moonshot-v1-8k",
+  "api_provider": "kimi",
+  "dry_run": false,
+  "incremental": false,
+  "max_chars": 5000,
+  "custom_topics": {
+    "Artificial Intelligence": "Technology",
+    "Machine Learning": "Technology",
+    "Computer Vision": "Technology",
+    "SLAM": "Technology",
+    "Robotics": "Technology",
+    "Investment": "Finance",
+    "Budgeting": "Finance",
+    "Physics": "Science",
+    "Biology": "Science",
+    "Chemistry": "Science",
+    "Academic": "Education",
+    "Education": "Education"
+  }
+}
