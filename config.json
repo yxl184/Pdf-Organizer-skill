@@ -1,0 +1,1 @@
+{\n  "openai_api_key": "your-actual-api-key-here",\n  "input_folder": "./input_pdfs",\n  "output_folder": "./organized_pdfs",\n  "model": "gpt-3.5-turbo",\n  "api_provider": "openai",\n  "dry_run": false,\n  "incremental": true,\n  "max_chars": 10000\n}
