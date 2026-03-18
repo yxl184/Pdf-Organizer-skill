@@ -1,1 +1,19 @@
-{\n  "openai_api_key": "your-actual-api-key-here",\n  "input_folder": "./input_pdfs",\n  "output_folder": "./organized_pdfs",\n  "model": "gpt-3.5-turbo",\n  "api_provider": "openai",\n  "dry_run": false,\n  "incremental": true,\n  "max_chars": 10000\n}
+{
+  "openai_api_key": "your-api-key-here",
+  "input_folder": "./input_pdfs",
+  "output_folder": "./organized_pdfs",
+  "model": "gpt-3.5-turbo",
+  "api_provider": "openai",
+  "dry_run": false,
+  "incremental": true,
+  "max_chars": 10000,
+  "custom_topics": {
+    "Artificial Intelligence": "Technology",
+    "Machine Learning": "Technology",
+    "Data Science": "Technology",
+    "Investment": "Finance",
+    "Budgeting": "Finance",
+    "Fitness": "Health",
+    "Nutrition": "Health"
+  }
+}
